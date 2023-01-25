@@ -26,10 +26,8 @@ def validUTF8(data):
     a valid UTF-8 encoding, else returns false
     Args:
         data : List of ints representing possible UTF-8 encoding
-    
     Return:
         bool : True or False
-    
     """
     bits = int_to_bits(data)
     for byte in bits:
